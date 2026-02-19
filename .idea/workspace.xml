@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49a10c8f-ec9a-4f45-b071-d4d647178342" name="Changes" comment="firstsasad" />
+    <list default="true" id="49a10c8f-ec9a-4f45-b071-d4d647178342" name="Changes" comment="firstsasadkljh">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about_files/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/about_files/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/bloodaxe.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/bloodaxe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/book-of-cleo.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/book-of-cleo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/rooster-mobs-slot.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/rooster-mobs-slot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_files/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/index_files/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privacy-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy-policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privacy-policy_files/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/privacy-policy_files/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terms-of-service.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms-of-service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terms-of-service_files/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/terms-of-service_files/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771530600828</updated>
-      <workItem from="1771530602020" duration="4514000" />
+      <workItem from="1771530602020" duration="5834000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -111,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771534834262</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="firstsasadkljh">
+      <option name="closed" value="true" />
+      <created>1771535317021</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771535317021</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +153,8 @@
     <MESSAGE value="first" />
     <MESSAGE value="firstsa" />
     <MESSAGE value="firstsasad" />
-    <option name="LAST_COMMIT_MESSAGE" value="firstsasad" />
+    <MESSAGE value="firstsasadkljh" />
+    <option name="LAST_COMMIT_MESSAGE" value="firstsasadkljh" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
