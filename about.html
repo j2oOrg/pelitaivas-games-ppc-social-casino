@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pelitaivas | About</title>
+  <meta name="description" content="Learn what makes Pelitaivas a simple, bright gaming website focused on free entertainment and no real-money gameplay.">
+  <meta name="keywords" content="about Pelitaivas, gaming website, browser entertainment">
+  <meta name="author" content="Pelitaivas">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Pelitaivas">
+  <meta property="og:title" content="Pelitaivas | About">
+  <meta property="og:description" content="Learn what makes Pelitaivas a simple, bright gaming website focused on free entertainment and no real-money gameplay.">
+  <meta property="og:url" content="https://pelitaivas.games/about.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Pelitaivas | About">
+  <meta name="twitter:description" content="Learn what makes Pelitaivas a simple, bright gaming website focused on free entertainment and no real-money gameplay.">
+  <link rel="canonical" href="https://pelitaivas.games/about.html">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f7f9ff;
+      --surface: #ffffff;
+      --ink: #121421;
+      --muted: #4f5568;
+      --accent: #ff5a5f;
+      --accent-2: #1fc9ff;
+      --accent-3: #b8ff3d;
+      --accent-4: #ffd23a;
+      --edge: #dde6ff;
+      --shadow: 0 22px 50px rgba(18, 20, 33, 0.12);
+      --bento-glow: linear-gradient(135deg, rgba(255, 90, 95, 0.18), rgba(31, 201, 255, 0.2) 50%, rgba(255, 210, 58, 0.22));
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      color: var(--ink);
+      background: radial-gradient(circle at 12% 10%, rgba(255, 90, 95, 0.28), transparent 55%),
+        radial-gradient(circle at 85% 15%, rgba(31, 201, 255, 0.28), transparent 48%),
+        linear-gradient(135deg, #fff5f1, #f1fbff);
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+    }
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      border-radius: 999px;
+      opacity: 0.35;
+      z-index: 0;
+      pointer-events: none;
+    }
+    body::before {
+      width: 320px;
+      height: 320px;
+      background: radial-gradient(circle, rgba(255, 90, 95, 0.75), transparent 70%);
+      top: -140px;
+      left: -120px;
+    }
+    body::after {
+      width: 260px;
+      height: 260px;
+      background: radial-gradient(circle, rgba(31, 201, 255, 0.7), transparent 70%);
+      bottom: -120px;
+      right: -100px;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    main {
+      padding: 32px 16px 80px;
+      max-width: 1100px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+    main > section {
+      opacity: 0;
+      transform: translateY(16px);
+      animation: rise 0.7s ease forwards;
+      background: var(--surface);
+      border: 1px solid var(--edge);
+      border-radius: 28px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+    main > section:nth-of-type(1) { animation-delay: 0.05s; }
+    main > section:nth-of-type(2) { animation-delay: 0.12s; }
+    main > section:nth-of-type(3) { animation-delay: 0.18s; }
+    main > section:nth-of-type(4) { animation-delay: 0.24s; }
+    main > section:nth-of-type(5) { animation-delay: 0.3s; }
+    main > section:nth-of-type(6) { animation-delay: 0.36s; }
+    h1, h2, h3, h4 {
+      font-family: "Poppins", sans-serif;
+      margin: 0 0 12px;
+    }
+    p {
+      margin: 0 0 12px;
+    }
+    :focus-visible {
+      outline: 3px solid var(--accent-2);
+      outline-offset: 2px;
+    }
+    [hidden] {
+      display: none !important;
+    }
+
+    .site-head-aq2n7x {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(255, 255, 255, 0.92);
+      border-bottom: 1px solid var(--edge);
+      backdrop-filter: blur(8px);
+    }
+    .head-inner-a8m1c4 {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .brand-mark-a5d9v2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .head-inner-a8m1c4 nav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .head-inner-a8m1c4 nav a {
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(31, 201, 255, 0.22);
+      border: 1px solid rgba(31, 201, 255, 0.35);
+      box-shadow: 0 10px 18px rgba(18, 20, 33, 0.08);
+      transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .head-inner-a8m1c4 nav a:hover {
+      background: rgba(31, 201, 255, 0.35);
+      box-shadow: 0 14px 22px rgba(18, 20, 33, 0.14);
+      transform: translateY(-1px);
+    }
+    .head-note-a7r4g6 {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(255, 90, 95, 0.28), rgba(255, 210, 58, 0.35));
+      border: 1px solid rgba(255, 90, 95, 0.35);
+      color: #6b1f25;
+      white-space: nowrap;
+    }
+
+    .story-wrap-a3k8t1 {
+      margin-top: 20px;
+      padding: 32px;
+      background: var(--bento-glow);
+      border: 1px solid var(--edge);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+    }
+    .story-wrap-a3k8t1 > div {
+      display: grid;
+      gap: 24px;
+      align-items: start;
+    }
+    .story-wrap-a3k8t1 ul {
+      margin: 12px 0 0;
+      padding-left: 18px;
+      color: var(--muted);
+    }
+
+    .actions-wrap-a6p2j5 {
+      margin-top: 44px;
+    }
+    .actions-wrap-a6p2j5 header p {
+      max-width: 520px;
+      color: var(--muted);
+    }
+    .actions-wrap-a6p2j5 > div {
+      margin-top: 20px;
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .actions-wrap-a6p2j5 article {
+      background: var(--surface);
+      border: 1px solid var(--edge);
+      border-radius: 20px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .fairness-wrap-a9u5b8 {
+      margin-top: 44px;
+    }
+    .fairness-wrap-a9u5b8 > div {
+      display: grid;
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .fairness-wrap-a9u5b8 article {
+      background: #fff;
+      border: 1px solid var(--edge);
+      border-radius: 20px;
+      padding: 16px;
+    }
+
+    .design-wrap-a4u2s9 {
+      margin-top: 44px;
+    }
+    .design-wrap-a4u2s9 header p {
+      max-width: 560px;
+      color: var(--muted);
+    }
+    .design-wrap-a4u2s9 ul {
+      margin: 16px 0 0;
+      padding-left: 20px;
+      color: var(--muted);
+      display: grid;
+      gap: 8px;
+    }
+    .design-wrap-a4u2s9 li {
+      line-height: 1.5;
+    }
+
+    .routine-wrap-a9l3t2 {
+      margin-top: 44px;
+    }
+    .routine-wrap-a9l3t2 header p {
+      max-width: 600px;
+      color: var(--muted);
+    }
+    .routine-wrap-a9l3t2 > div {
+      margin-top: 20px;
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .routine-wrap-a9l3t2 article {
+      background: #fff;
+      border: 1px solid var(--edge);
+      border-radius: 20px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .faq-wrap-a1h7s3 {
+      margin-top: 44px;
+    }
+    .faq-wrap-a1h7s3 header p {
+      max-width: 520px;
+      color: var(--muted);
+    }
+    .faq-wrap-a1h7s3 details {
+      background: var(--surface);
+      border: 1px solid var(--edge);
+      border-radius: 16px;
+      padding: 12px 16px;
+      margin-top: 12px;
+    }
+    .faq-wrap-a1h7s3 summary {
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .faq-wrap-a1h7s3 summary::marker {
+      color: var(--accent);
+    }
+
+    .site-foot-a2q6z9 {
+      margin-top: 60px;
+      border-top: 1px solid var(--edge);
+      background: rgba(255, 255, 255, 0.9);
+      position: relative;
+      z-index: 1;
+    }
+    .foot-inner-a0w3x7 {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 16px;
+      display: grid;
+      gap: 24px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .foot-inner-a0w3x7 p {
+      color: var(--muted);
+    }
+    .foot-inner-a0w3x7 nav {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .foot-inner-a0w3x7 nav a {
+      color: var(--muted);
+    }
+    .foot-inner-a0w3x7 nav a:hover {
+      color: var(--accent);
+    }
+    .foot-bar-a8y1e5 {
+      border-top: 1px dashed var(--edge);
+      padding: 16px;
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .cookie-bar-a6c2m8 {
+      position: fixed;
+      bottom: 16px;
+      left: 16px;
+      right: 16px;
+      background: #ffffff;
+      border: 1px solid var(--edge);
+      border-radius: 16px;
+      padding: 12px 16px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 20;
+    }
+    .cookie-bar-a6c2m8 p {
+      margin: 0;
+      color: var(--muted);
+    }
+    .cookie-bar-a6c2m8 button {
+      border-radius: 999px;
+      padding: 8px 14px;
+      border: 1px solid var(--accent-2);
+      background: var(--accent-2);
+      color: #fff;
+      cursor: pointer;
+    }
+    .cookie-bar-a6c2m8 button:last-child {
+      background: transparent;
+      color: var(--accent-2);
+    }
+
+    @keyframes rise {
+      from {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @media (min-width: 900px) {
+      .story-wrap-a3k8t1 > div {
+        grid-template-columns: 1.2fr 0.8fr;
+      }
+      .fairness-wrap-a9u5b8 > div {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 720px) {
+      .head-inner-a8m1c4 {
+        justify-content: center;
+      }
+      .head-note-a7r4g6 {
+        order: 3;
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      main > section {
+        animation: none;
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17829629101"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17829629101');
+</script>
+</head>
+<body>
+  <header class="site-head-aq2n7x">
+    <div class="head-inner-a8m1c4">
+      <a class="brand-mark-a5d9v2" href="index.html" aria-label="Pelitaivas home">Pelitaivas</a>
+      <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="play.html">Play</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="head-note-a7r4g6">18+ only | Free-play</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="story-wrap-a3k8t1">
+      <div>
+        <div>
+          <h1>Our story</h1>
+          <p>Pelitaivas grew out of late-night design talks about how a gaming website can be fun without the pressure. We wanted a place that felt lively, easy to read, and calm enough for a short break or a longer session.</p>
+          <p>The result is a free-play lounge with bright colors, steady pacing, and clear labels. Everything here is for entertainment only, with no real-world rewards or cash-out.</p>
+          <p>Inside the team, the shorthand kasinot shows up in notes because it captures the playful game vibe without implying real-money play.</p>
+          <p>We also keep the scope small on purpose. One clean game beats a wall of clutter, and it keeps the page fast on campus Wi-Fi.</p>
+        </div>
+        <div>
+          <h2>What you get</h2>
+          <ul>
+            <li>Free-play only, with no money involved.</li>
+            <li>Layouts designed for readability on phones and laptops.</li>
+            <li>A single focused game with a calm, readable pace.</li>
+            <li>Clear reminders that the experience is free-play and 18+.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="actions-wrap-a6p2j5">
+      <header>
+        <h2>What you can do here</h2>
+        <p>Open the game, settle in, and come back whenever you want.</p>
+      </header>
+      <div>
+        <article>
+          <h3>Find your rhythm</h3>
+          <p>Short sessions or longer ones are both welcome, and the pace stays steady.</p>
+        </article>
+        <article>
+          <h3>Pause on your schedule</h3>
+          <p>Stop and start whenever it suits you, with nothing to catch up on.</p>
+        </article>
+        <article>
+          <h3>Play for pure fun</h3>
+          <p>It is built for entertainment, not prizes, payouts, or cash-out.</p>
+        </article>
+        <article>
+          <h3>Stay low pressure</h3>
+          <p>No streaks, streak resets, or countdowns. You can step away anytime.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="fairness-wrap-a9u5b8">
+      <header>
+        <h2>Fairness and transparency</h2>
+        <p>Pelitaivas is a free-play lounge. We focus on clarity so you know what each feature does and what it does not do.</p>
+      </header>
+      <div>
+        <article>
+          <h3>Clear rules</h3>
+          <p>The game includes clear on-screen notes about how it works so you are never guessing.</p>
+        </article>
+        <article>
+          <h3>No real-money play</h3>
+          <p>Outcomes are simulated for fun only. There is no real money, no prizes, and no financial risk.</p>
+        </article>
+        <article>
+          <h3>Plain language help</h3>
+          <p>We keep the on-screen help short and readable, without the usual jargon.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="design-wrap-a4u2s9">
+      <header>
+        <h2>Design choices that shape the vibe</h2>
+        <p>This site is intentionally bright and tidy. The bento layout and color palette are meant to feel playful without being noisy.</p>
+      </header>
+      <p>We use big rounded cards because they help separate information into small, readable chunks. On a phone, that matters. You can scroll, pick out the key points, and still see the game without squinting.</p>
+      <p>The typeface has personality, but we balance it with extra spacing and short sentences. If you are opening the site during a busy day, the text should feel easy to scan.</p>
+      <ul>
+        <li>Bright gradients are there to set the mood, not to compete with the game.</li>
+        <li>Short labels keep the screen clear and reduce clutter.</li>
+        <li>We keep the footer steady so disclaimers are easy to find.</li>
+      </ul>
+    </section>
+
+    <section class="routine-wrap-a9l3t2">
+      <header>
+        <h2>How we think about play time</h2>
+        <p>Pelitaivas is made for breaks. It is the kind of gaming website space you open when you want a low-pressure distraction and a little color.</p>
+      </header>
+      <p>Because there is no money involved, the vibe stays relaxed. You do not need to keep track of anything or chase a score. It is just a short loop you can step into and leave whenever you want.</p>
+      <div>
+        <article>
+          <h3>Keep it casual</h3>
+          <p>Open the game, take a few spins, and close the tab when your break ends.</p>
+        </article>
+        <article>
+          <h3>Know the limits</h3>
+          <p>It is 18+ and entertainment only. If you are not in that group, this is not the right place.</p>
+        </article>
+        <article>
+          <h3>Stay grounded</h3>
+          <p>No prizes, no payouts, no cash-out, no progression systems. Just a clean, simple experience.</p>
+        </article>
+      </div>
+      <p>That is the whole idea: a friendly, minimal space that feels safe and straightforward.</p>
+    </section>
+
+    <section class="faq-wrap-a1h7s3">
+      <header>
+        <h2>Quick FAQ</h2>
+        <p>Short answers to the questions we hear most often.</p>
+      </header>
+      <details>
+        <summary>Is this real-money play?</summary>
+        <p>No. Pelitaivas is free-play entertainment with no payouts or cash-out.</p>
+      </details>
+      <details>
+        <summary>Who can use Pelitaivas?</summary>
+        <p>You must be 18+ and looking for relaxed free-play.</p>
+      </details>
+      <details>
+        <summary>Do I need to download anything?</summary>
+        <p>No downloads required. Everything runs in your browser.</p>
+      </details>
+      <details>
+        <summary>Is any progress saved?</summary>
+        <p>No. Each session starts fresh, which keeps things simple.</p>
+      </details>
+      <details>
+        <summary>Does it work offline?</summary>
+        <p>No. The game runs in your browser and needs a connection.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-foot-a2q6z9">
+    <div class="foot-inner-a0w3x7">
+      <div>
+        <h3>Pelitaivas</h3>
+        <p>A gaming website lounge for adults who enjoy game-inspired visuals without real-money play.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <nav aria-label="Footer">
+          <a href="games.html">Games</a>
+          <a href="play.html">Play</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="terms.html">Terms</a>
+          <a href="policy.html">Privacy</a>
+        </nav>
+      </div>
+    </div>
+    <div class="foot-bar-a8y1e5">
+      <span>18+ only. Free-play for entertainment, no real money, no prizes, no cash-out.</span>
+      <span>Questions? Email hello@Pelitaivas.com</span>
+    </div>
+  </footer>
+
+  <div class="cookie-bar-a6c2m8" data-cookie-banner>
+    <p>We use cookies to remember your choice and keep the lounge running smoothly.</p>
+    <div>
+      <button type="button" data-cookie-accept>Accept</button>
+      <button type="button" data-cookie-decline>Decline</button>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      // Cookie consent helpers.
+
+      // Cookie banner: store the choice and hide it after selection.
+      const banner = document.querySelector('[data-cookie-banner]');
+      const accepted = (() => {
+        try { return localStorage.getItem('pp_cookie_choice'); } catch (err) { return null; }
+      })();
+      if (banner && accepted) {
+        banner.setAttribute('hidden', '');
+      }
+      const saveChoice = (value) => {
+        try { localStorage.setItem('pp_cookie_choice', value); } catch (err) {}
+        if (banner) {
+          banner.setAttribute('hidden', '');
+        }
+      };
+      const acceptBtn = document.querySelector('[data-cookie-accept]');
+      const declineBtn = document.querySelector('[data-cookie-decline]');
+      if (acceptBtn) {
+        acceptBtn.addEventListener('click', () => saveChoice('accepted'));
+      }
+      if (declineBtn) {
+        declineBtn.addEventListener('click', () => saveChoice('declined'));
+      }
+
+    })();
+  </script>
+</body>
+</html>
+
+
+

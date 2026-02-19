@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pelitaivas | Free Browser Games</title>
+  <meta name="description" content="Play a growing catalog of free browser games on pelitaivas.games. Entertainment-only, no betting, and no cash prizes.">
+  <meta name="keywords" content="free browser games, casual games, arcade games, puzzle games, entertainment only">
+  <meta name="author" content="Pelitaivas">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Pelitaivas">
+  <meta property="og:title" content="Pelitaivas | Free Browser Games">
+  <meta property="og:description" content="Play a growing catalog of free browser games on pelitaivas.games. Entertainment-only, no betting, and no cash prizes.">
+  <meta property="og:url" content="https://pelitaivas.games/index.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Pelitaivas | Free Browser Games">
+  <meta name="twitter:description" content="Play a growing catalog of free browser games on pelitaivas.games. Entertainment-only, no betting, and no cash prizes.">
+  <link rel="canonical" href="https://pelitaivas.games/index.html">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f7f9ff;
+      --surface: #ffffff;
+      --ink: #121421;
+      --muted: #4f5568;
+      --accent: #ff5a5f;
+      --accent-2: #1fc9ff;
+      --accent-3: #b8ff3d;
+      --accent-4: #ffd23a;
+      --edge: #dde6ff;
+      --shadow: 0 22px 50px rgba(18, 20, 33, 0.12);
+      --bento-glow: linear-gradient(135deg, rgba(255, 90, 95, 0.18), rgba(31, 201, 255, 0.2) 50%, rgba(255, 210, 58, 0.22));
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      color: var(--ink);
+      background: radial-gradient(circle at 12% 10%, rgba(255, 90, 95, 0.28), transparent 55%),
+        radial-gradient(circle at 85% 15%, rgba(31, 201, 255, 0.28), transparent 48%),
+        linear-gradient(135deg, #fff5f1, #f1fbff);
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+    }
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      border-radius: 999px;
+      opacity: 0.35;
+      z-index: 0;
+      pointer-events: none;
+    }
+    body::before {
+      width: 320px;
+      height: 320px;
+      background: radial-gradient(circle, rgba(255, 90, 95, 0.75), transparent 70%);
+      top: -140px;
+      left: -120px;
+    }
+    body::after {
+      width: 260px;
+      height: 260px;
+      background: radial-gradient(circle, rgba(31, 201, 255, 0.7), transparent 70%);
+      bottom: -120px;
+      right: -100px;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    main {
+      padding: 32px 16px 80px;
+      max-width: 1100px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+    main > section {
+      opacity: 0;
+      transform: translateY(16px);
+      animation: rise 0.7s ease forwards;
+      background: var(--surface);
+      border: 1px solid var(--edge);
+      border-radius: 28px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+    main > section:nth-of-type(1) { animation-delay: 0.05s; }
+    main > section:nth-of-type(2) { animation-delay: 0.12s; }
+    main > section:nth-of-type(3) { animation-delay: 0.18s; }
+    main > section:nth-of-type(4) { animation-delay: 0.24s; }
+    main > section:nth-of-type(5) { animation-delay: 0.3s; }
+    main > section:nth-of-type(6) { animation-delay: 0.36s; }
+    h1, h2, h3, h4 {
+      font-family: "Poppins", sans-serif;
+      margin: 0 0 12px;
+    }
+    p {
+      margin: 0 0 12px;
+    }
+    :focus-visible {
+      outline: 3px solid var(--accent-2);
+      outline-offset: 2px;
+    }
+    [hidden] {
+      display: none !important;
+    }
+
+    .site-head-g7v2k4 {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(255, 255, 255, 0.92);
+      border-bottom: 1px solid var(--edge);
+      backdrop-filter: blur(8px);
+    }
+    .head-inner-g1m6z9 {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .brand-mark-g5d8n2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .head-inner-g1m6z9 nav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .head-inner-g1m6z9 nav a {
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(31, 201, 255, 0.22);
+      border: 1px solid rgba(31, 201, 255, 0.35);
+      box-shadow: 0 10px 18px rgba(18, 20, 33, 0.08);
+      transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .head-inner-g1m6z9 nav a:hover {
+      background: rgba(31, 201, 255, 0.35);
+      box-shadow: 0 14px 22px rgba(18, 20, 33, 0.14);
+      transform: translateY(-1px);
+    }
+    .head-note-g9r3c7 {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(255, 90, 95, 0.28), rgba(255, 210, 58, 0.35));
+      border: 1px solid rgba(255, 90, 95, 0.35);
+      color: #6b1f25;
+      white-space: nowrap;
+    }
+
+    .intro-wrap-g2t5h8 {
+      margin-top: 20px;
+      padding: 28px;
+      background: var(--bento-glow);
+      border: 1px solid var(--edge);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+    }
+    .intro-wrap-g2t5h8 p {
+      max-width: 640px;
+      color: var(--muted);
+    }
+    .intro-wrap-g2t5h8 img {
+      width: min(220px, 100%);
+      height: 90px;
+      object-fit: cover;
+      border-radius: 16px;
+      border: 1px solid var(--edge);
+      margin-top: 16px;
+      background: #fff;
+    }
+    .disclaimer-wrap-g7p2r4 {
+      margin-top: 20px;
+      padding: 16px;
+      border-radius: 18px;
+      border: 1px solid rgba(31, 201, 255, 0.35);
+      background: rgba(31, 201, 255, 0.08);
+      color: var(--muted);
+    }
+    .disclaimer-wrap-g7p2r4 h2 {
+      color: var(--ink);
+      margin-bottom: 8px;
+    }
+    .disclaimer-wrap-g7p2r4 ul {
+      margin: 0;
+      padding-left: 20px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .grid-wrap-g6p1s4 {
+      margin-top: 40px;
+    }
+    .grid-wrap-g6p1s4 header p {
+      max-width: 520px;
+      color: var(--muted);
+    }
+    .grid-wrap-g6p1s4 > div {
+      margin-top: 20px;
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    }
+    .grid-wrap-g6p1s4 article {
+      background: #fff;
+      border: 1px solid var(--edge);
+      border-radius: 20px;
+      padding: 16px;
+      display: grid;
+      gap: 10px;
+      box-shadow: var(--shadow);
+    }
+    .grid-wrap-g6p1s4 article img {
+      width: 100%;
+      height: 120px;
+      border-radius: 14px;
+      background: #fff;
+      border: 1px solid var(--edge);
+      object-fit: cover;
+    }
+    .grid-wrap-g6p1s4 small {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 0.7rem;
+      color: var(--muted);
+    }
+    .grid-wrap-g6p1s4 a {
+      margin-top: 6px;
+      justify-self: start;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: var(--card-accent);
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .detail-wrap-ht5k9m header p {
+      max-width: 620px;
+      color: var(--muted);
+    }
+    .detail-wrap-ht5k9m ul {
+      margin: 16px 0 0;
+      padding-left: 20px;
+      color: var(--muted);
+      display: grid;
+      gap: 8px;
+    }
+    .detail-wrap-ht5k9m li {
+      line-height: 1.5;
+    }
+
+    .context-wrap-g8r1v3 header p,
+    .guide-wrap-g4q6n7 header p,
+    .ethos-wrap-g9m2p5 header p {
+      max-width: 640px;
+      color: var(--muted);
+    }
+    .context-wrap-g8r1v3 ul {
+      margin: 16px 0 0;
+      padding-left: 20px;
+      color: var(--muted);
+      display: grid;
+      gap: 8px;
+    }
+    .context-wrap-g8r1v3 li {
+      line-height: 1.5;
+    }
+
+    .guide-wrap-g4q6n7 > div {
+      margin-top: 20px;
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .guide-wrap-g4q6n7 article {
+      background: #fff;
+      border: 1px solid var(--edge);
+      border-radius: 20px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .ethos-wrap-g9m2p5 aside {
+      margin-top: 16px;
+      padding: 16px;
+      border-radius: 18px;
+      border: 1px dashed rgba(31, 201, 255, 0.45);
+      background: rgba(31, 201, 255, 0.1);
+      color: var(--muted);
+    }
+    .ethos-wrap-g9m2p5 strong {
+      color: var(--ink);
+    }
+
+    .site-foot-g8w2j5 {
+      margin-top: 60px;
+      border-top: 1px solid var(--edge);
+      background: rgba(255, 255, 255, 0.9);
+      position: relative;
+      z-index: 1;
+    }
+    .foot-inner-g4e7b1 {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 16px;
+      display: grid;
+      gap: 24px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .foot-inner-g4e7b1 p {
+      color: var(--muted);
+    }
+    .foot-inner-g4e7b1 nav {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .foot-inner-g4e7b1 nav a {
+      color: var(--muted);
+    }
+    .foot-inner-g4e7b1 nav a:hover {
+      color: var(--accent);
+    }
+    .foot-bar-g0y6l8 {
+      border-top: 1px dashed var(--edge);
+      padding: 16px;
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .cookie-bar-g9u3x6 {
+      position: fixed;
+      bottom: 16px;
+      left: 16px;
+      right: 16px;
+      background: #ffffff;
+      border: 1px solid var(--edge);
+      border-radius: 16px;
+      padding: 12px 16px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 20;
+    }
+    .cookie-bar-g9u3x6 p {
+      margin: 0;
+      color: var(--muted);
+    }
+    .cookie-bar-g9u3x6 button {
+      border-radius: 999px;
+      padding: 8px 14px;
+      border: 1px solid var(--accent-2);
+      background: var(--accent-2);
+      color: #fff;
+      cursor: pointer;
+    }
+    .cookie-bar-g9u3x6 button:last-child {
+      background: transparent;
+      color: var(--accent-2);
+    }
+
+    @keyframes rise {
+      from {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @media (max-width: 720px) {
+      .head-inner-g1m6z9 {
+        justify-content: center;
+      }
+      .head-note-g9r3c7 {
+        order: 3;
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      main > section {
+        animation: none;
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17829629101"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17829629101');
+</script>
+</head>
+<body>
+  <header class="site-head-g7v2k4">
+    <div class="head-inner-g1m6z9">
+      <a class="brand-mark-g5d8n2" href="index.html" aria-label="Pelitaivas home">Pelitaivas</a>
+      <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="play.html">Play</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="head-note-g9r3c7">18+ only | Free-play</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro-wrap-g2t5h8">
+      <h1>Game catalog</h1>
+      <p>Pick a title and start playing right away. Every game is for entertainment only and does not involve real money.</p>
+      <p>Everything is available directly from this page to keep discovery fast on desktop and mobile.</p>
+      <img src="images/game-night-word-png-grunge-gray-font-transparent-background.jpg" alt="Game catalog preview" loading="lazy">
+    </section>
+
+    <section class="disclaimer-wrap-g7p2r4">
+      <h2>No gambling offered</h2>
+      <ul>
+        <li>This is a gaming website with no betting, wagering, or chance-based rewards.</li>
+        <li>There is no real money, no prizes, and no cash-out.</li>
+        <li>Games are free-play entertainment only and 18+.</li>
+      </ul>
+    </section>
+
+    <section class="grid-wrap-g6p1s4" id="game-list">
+      <header>
+        <h2>Pelitaivas games</h2>
+        <p>Four ready-to-play titles. Tap one to open and start from the game screen.</p>
+      </header>
+      <div>
+        <article style="--card-accent: #ff5a5f;">
+          <small>Action</small>
+          <h3>Neon Dash</h3>
+          <p>Tap glowing targets before they disappear and keep your score moving.</p>
+          <a href="play.html?game=neon-dash">Play Neon Dash</a>
+        </article>
+        <article style="--card-accent: #1fc9ff;">
+          <small>Focus</small>
+          <h3>Puzzle Prism</h3>
+          <p>Watch the color sequence and repeat it correctly to keep the combo alive.</p>
+          <a href="play.html?game=puzzle-prism">Play Puzzle Prism</a>
+        </article>
+        <article style="--card-accent: #ffd23a;">
+          <small>Collector</small>
+          <h3>Treasure Orbit</h3>
+          <p>Collect treasure orbs quickly before they vanish from the board.</p>
+          <a href="play.html?game=treasure-orbit">Play Treasure Orbit</a>
+        </article>
+        <article style="--card-accent: #b8ff3d;">
+          <small>Arcade</small>
+          <h3>Pixel Drift</h3>
+          <p>Steer your pixel ship across lanes and avoid incoming obstacles.</p>
+          <a href="play.html?game=pixel-drift">Play Pixel Drift</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot-g8w2j5">
+    <div class="foot-inner-g4e7b1">
+      <div>
+        <h3>Pelitaivas</h3>
+        <p>A gaming website for adults who enjoy game-inspired visuals without real-money play.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <nav aria-label="Footer">
+          <a href="games.html">Games</a>
+          <a href="play.html">Play</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="terms.html">Terms</a>
+          <a href="policy.html">Privacy</a>
+        </nav>
+      </div>
+    </div>
+    <div class="foot-bar-g0y6l8">
+      <span>18+ only. Free-play for entertainment, no real money, no prizes, no cash-out.</span>
+      <span>Questions? Email hello@Pelitaivas.com</span>
+    </div>
+  </footer>
+
+  <div class="cookie-bar-g9u3x6" data-cookie-banner>
+    <p>We use cookies to remember your choice and keep the lounge running smoothly.</p>
+    <div>
+      <button type="button" data-cookie-accept>Accept</button>
+      <button type="button" data-cookie-decline>Decline</button>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      // UI helpers for cookie consent.
+
+      // Cookie banner: store the choice and hide it after selection.
+      const banner = document.querySelector('[data-cookie-banner]');
+      const accepted = (() => {
+        try { return localStorage.getItem('pp_cookie_choice'); } catch (err) { return null; }
+      })();
+      if (banner && accepted) {
+        banner.setAttribute('hidden', '');
+      }
+      const saveChoice = (value) => {
+        try { localStorage.setItem('pp_cookie_choice', value); } catch (err) {}
+        if (banner) {
+          banner.setAttribute('hidden', '');
+        }
+      };
+      const acceptBtn = document.querySelector('[data-cookie-accept]');
+      const declineBtn = document.querySelector('[data-cookie-decline]');
+      if (acceptBtn) {
+        acceptBtn.addEventListener('click', () => saveChoice('accepted'));
+      }
+      if (declineBtn) {
+        declineBtn.addEventListener('click', () => saveChoice('declined'));
+      }
+
+    })();
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Happy face icon">
+  <circle cx="32" cy="32" r="30" fill="#FFD33B"/>
+  <circle cx="22" cy="24" r="4" fill="#1E1E2F"/>
+  <circle cx="42" cy="24" r="4" fill="#1E1E2F"/>
+  <path d="M18 36 C22 46, 42 46, 46 36" fill="none" stroke="#1E1E2F" stroke-width="4" stroke-linecap="round"/>
+</svg>
